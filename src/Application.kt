@@ -7,7 +7,7 @@ import io.ktor.routing.*
 import io.ktor.http.*
 import io.ktor.locations.*
 import io.ktor.auth.*
-import lean.kotlin.tutorial.routes.variableRoute
+import lean.kotlin.tutorial.routes.*
 
 fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
 
@@ -21,7 +21,7 @@ fun Application.module(testing: Boolean = false) {
     }
 
     routing {
-        variableRoute()
+        nullsafetyRoute()
     }
 
     routing {
