@@ -24,6 +24,7 @@ fun Application.module(testing: Boolean = false) {
         nullsafetyRoute()
         functionRoute()
         conditionalRoute()
+        loopRoute()
     }
 
     routing {
