@@ -25,6 +25,7 @@ fun Application.module(testing: Boolean = false) {
         functionRoute()
         conditionalRoute()
         loopRoute()
+        classRoute()
     }
 
     routing {
