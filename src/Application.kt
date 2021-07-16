@@ -26,6 +26,7 @@ fun Application.module(testing: Boolean = false) {
         conditionalRoute()
         loopRoute()
         classRoute()
+        interfaceRoute()
     }
 
     routing {
