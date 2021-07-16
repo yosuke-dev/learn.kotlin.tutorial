@@ -23,6 +23,7 @@ fun Application.module(testing: Boolean = false) {
     routing {
         nullsafetyRoute()
         functionRoute()
+        conditionalRoute()
     }
 
     routing {
