@@ -29,6 +29,7 @@ fun Application.module(testing: Boolean = false) {
         interfaceRoute()
         collectionRoute()
         propertyClassRoute()
+        dataClassRoute()
     }
 
     routing {
