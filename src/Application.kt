@@ -27,6 +27,7 @@ fun Application.module(testing: Boolean = false) {
         loopRoute()
         classRoute()
         interfaceRoute()
+        collectionRoute()
     }
 
     routing {
