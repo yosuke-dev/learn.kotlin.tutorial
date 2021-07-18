@@ -33,6 +33,7 @@ fun Application.module(testing: Boolean = false) {
         lambdaRoute()
         scopeRoute()
         overloadRoute()
+        delegateRoute()
     }
 
     routing {
