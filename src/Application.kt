@@ -31,6 +31,7 @@ fun Application.module(testing: Boolean = false) {
         propertyClassRoute()
         dataClassRoute()
         lambdaRoute()
+        scopeRoute()
     }
 
     routing {

@@ -40,25 +40,25 @@ fun Route.propertyClassRoute() {
     }
 }
 
-class User1(){
+private class User1 {
     var name: String = ""
 }
 
-class User2(val id: Int){
+private class User2(val id: Int){
     var name: String = ""
 }
 
-class User3(){
+private class User3 {
     lateinit var name: String
 }
 
-class User4(){
+private class User4 {
     lateinit var name: String
     val isValidName: Boolean
         get() = name != ""
 }
 
-class User5(){
+private class User5 {
     var name: String = ""
         set(value) {
             field = if(value == ""){
