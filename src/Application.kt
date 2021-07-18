@@ -30,6 +30,7 @@ fun Application.module(testing: Boolean = false) {
         collectionRoute()
         propertyClassRoute()
         dataClassRoute()
+        lambdaRoute()
     }
 
     routing {
