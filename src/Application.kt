@@ -32,6 +32,7 @@ fun Application.module(testing: Boolean = false) {
         dataClassRoute()
         lambdaRoute()
         scopeRoute()
+        overloadRoute()
     }
 
     routing {
