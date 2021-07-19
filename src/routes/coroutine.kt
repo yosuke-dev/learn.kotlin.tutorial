@@ -15,10 +15,7 @@ fun Route.coroutineRoute() {
         val respondText = StringBuilder()
 
         runBlocking {
-            launch {
-                delay(1000L)
-                respondText.append("<div>Yosuke.</div>")
-            }
+            launch { respondText.append(displayName()) }
             respondText.append("<div>My name is </div>")
         }
 
@@ -26,3 +23,7 @@ fun Route.coroutineRoute() {
     }
 }
 
+private suspend fun displayName(): String {
+    delay(1000L)
+    return "<div>Yosuke.</div>"
+}
