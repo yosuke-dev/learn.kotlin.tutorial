@@ -34,6 +34,7 @@ fun Application.module(testing: Boolean = false) {
         scopeRoute()
         overloadRoute()
         delegateRoute()
+        collectionLibraryRoute()
     }
 
     routing {
