@@ -35,6 +35,7 @@ fun Application.module(testing: Boolean = false) {
         overloadRoute()
         delegateRoute()
         collectionLibraryRoute()
+        coroutineRoute()
     }
 
     routing {
